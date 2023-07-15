@@ -1,0 +1,18 @@
+La declaración try...catch señala un bloque de instrucciones a intentar (try), y especifica una respuesta si se produce una excepción (catch).
+
+Importante recordar que la estructura de async/await se compone por las palabras reservadas async y await:
+
+La palabra "async" antes de una función significa una cosa simple: una función siempre devuelve una promesa.
+
+La palabra async se coloca antes de la función (la otra forma es con funciones flecha en que el async va antes que los argumentos).
+La palabra await se utiliza dentro de las funciones async.
+
+Otra forma de hacer que async/await espere a varios llamados a la vez es con la estructura: Try /Catch:
+
+
+La palabra reservada try consiste en un bloque que contiene una o más sentencias, como hacíamos con resolve.
+Su cuerpo está conformado por las llaves {} las cuales se deben utilizar siempre, incluso para un bloque de una sola sentencia.
+También puede estar presente un bloque con la palabra reservada catch.
+Un bloque catch es opcional (como hacíamos con reject) y contiene sentencias que especifican que hacer si una excepción es lanzada en el bloque try.
+Si no se lanza ninguna excepción en el bloque try, el bloque catch se omite.
+.
